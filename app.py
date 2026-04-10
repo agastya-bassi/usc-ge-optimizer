@@ -22,6 +22,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("🎓 USC GE Double-Count Finder")
+st.info("ℹ️ Courses showing 0 seats may not be offered this semester or may only have discussion sections. Use 'Show open courses only' to filter for available courses.")
 st.markdown("##### Find courses that satisfy two GE requirements at once — with live seat availability from WebReg.")
 
 @st.cache_data(ttl=420)
