@@ -70,11 +70,9 @@ def get_all_enrollments(df: pd.DataFrame) -> pd.DataFrame:
 
     return summary
 
-
-# Run for all courses
-ge_df = pd.read_csv("ge_double_count.csv")
-print("Fetching live enrollment for all 120 double-count courses...")
-enrollment_df = get_all_enrollments(ge_df)
-enrollment_df.to_csv("enrollment_data.csv", index=False)
-print("\nDone. Sample:")
-print(enrollment_df.head(10).to_string())
+if __name__ == "__main__":
+    ge_df = pd.read_csv("ge_double_count.csv")
+    print("Fetching live enrollment for all double-count courses...")
+    enrollment_df = get_all_enrollments(ge_df)
+    enrollment_df.to_csv("enrollment_data.csv", index=False)
+    print(f"Done. Saved {len(enrollment_df)} courses.")

@@ -5,8 +5,37 @@ import concurrent.futures
 
 st.set_page_config(page_title="USC GE Double-Count Finder", page_icon="🎓", layout="wide")
 
+st.markdown("""
+<style>
+    .main { background-color: #0f0f0f; }
+    .block-container { padding-top: 2rem; }
+    h1 { color: #FF6B6B; font-size: 2.5rem; }
+    .stDataFrame { border-radius: 10px; }
+    div[data-testid="metric-container"] {
+        background-color: #1a1a1a;
+        border: 1px solid #333;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    div[data-testid="metric-container"] label {
+        color: #aaa;
+    }
+    div[data-testid="metric-container"] div {
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .stSpinner { color: #FF6B6B; }
+    .stCaption { color: #666; font-size: 0.75rem; }
+    [data-testid="stSidebar"] {
+        background-color: #1a1a1a;
+        border-right: 1px solid #333;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 st.title("🎓 USC GE Double-Count Finder")
-st.markdown("Find courses that satisfy **two GE requirements** at once — with **live enrollment data** from WebReg.")
+st.markdown("##### Find courses that satisfy two GE requirements at once — with live seat availability from WebReg.")
 
 def fetch_one(course_code):
     prefix = course_code.split()[0]
