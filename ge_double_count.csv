@@ -1,0 +1,121 @@
+course_code,course_name,category_1,category_2
+AMST 325gw,The Middle East in Hollywood,GE-A,GE-G
+DANC 312gw,African American Dance,GE-A,GE-G
+DANC 333gw,Origins of Jazz Dance,GE-A,GE-G
+MUSC 102gw,World Music,GE-A,GE-G
+MUSC 200mgw,The Broadway Musical: Reflections of American Diversity,GE-A,GE-G
+MUSC 250mgw,The Music of Black Americans,GE-A,GE-G
+THTE 226gw,The History of Content Creation,GE-A,GE-G
+MUSC 320mgw,Hip-hop Music and Culture,GE-A,GE-G
+AHIS 120gp,Foundations of Western Art: Prehistoric to Renaissance,GE-A,GE-H
+AHIS 121gp,Foundations of Western Art: Renaissance to Contemporary,GE-A,GE-H
+AHIS 125gp,Arts of Asia I: Antiquity to 1300,GE-A,GE-H
+AHIS 128gp,"The Arts and Society in Latin America, Colonial to Contemporary",GE-A,GE-H
+CLAS 170gp,Classics of Music and Literature: from Ancient Greece through Contemporary L.A.,GE-A,GE-H
+CLAS 280gp,Classical Mythology in Art and Literature,GE-A,GE-H
+CRIT 150gp,"Histories of Art, Design and Visual Culture",GE-A,GE-H
+MUSC 115gp,Western Music as Sounding History,GE-A,GE-H
+AMST 150gw,The American War in Viet Nam,GE-B,GE-G
+AMST 331gw,The Black Atlantic: Narratives of Migration and Travel,GE-B,GE-G
+COLT 382gw,Zen and Taoism in Asian Literature,GE-B,GE-G
+CRIT 350gw,"Global Art, Design and Visual Culture since 1960",GE-B,GE-G
+CTCS 150gw,Vision of Diversity in the Cinematic Arts,GE-B,GE-G
+EALC 150gw,Global Chinese Cinema and Cultural Studies,GE-B,GE-G
+EALC 255gw,Southeast Asian Literature and Film,GE-B,GE-G
+FREN 260gw,Global Women’s Narratives,GE-B,GE-G
+FREN 270gw,Black Europe,GE-B,GE-G
+FREN 375mgw,Global Narratives of Illness and Disability,GE-B,GE-G
+HIST 210gw,How to Be An American: Global Histories of U.S. Citizenship,GE-B,GE-G
+JS 150gw,Jewish Histories of the Modern Middle East,GE-B,GE-G
+JS 320gw,The Sephardic World,GE-B,GE-G
+PHIL 166gw,Current Moral and Social Issues,GE-B,GE-G
+PHIL 172mgw,Social Ethics for Earthlings and Others,GE-B,GE-G
+PHIL 174gw,"Freedom, Equality, and Social Justice",GE-B,GE-G
+PHIL 176gw,Feminist Philosophy,GE-B,GE-G
+PHIL 178gw,Moral Dilemmas in the Legal Domain,GE-B,GE-G
+PHIL 260gw,Ethical Theory and Practice,GE-B,GE-G
+SLL 310gw,The Eastern European Jewish Experience: Literature and Film,GE-B,GE-G
+SWMS 215gw,Introduction to Gender and Sexuality: International Perspectives,GE-B,GE-G
+AMST 301gp,"America, the Frontier, and the New West",GE-B,GE-H
+CLAS 150gp,The Greeks and their Legacies,GE-B,GE-H
+CLAS 151gp,The Legacy of Rome,GE-B,GE-H
+CLAS 160gp,Ancient Lives,GE-B,GE-H
+CLAS 195gp,Nature and Environment in Ancient Mediterranean Culture,GE-B,GE-H
+CLAS 320mgp,Diversity and the Classical Western Tradition,GE-B,GE-H
+CLAS 337gp,Ancient Drama,GE-B,GE-H
+COLT 101gp,Masterpieces and Masterminds: Literature and Thought,GE-B,GE-H
+COLT 264gp,Asian Aesthetic and Literature Traditions,GE-B,GE-H
+COLT 360gp,Fictions of Africa,GE-B,GE-H
+CORE 102gp,Culture and Values: Thematic Option Honors Program,GE-B,GE-H
+DANC 342gp,International and Historical Perspectives on Dance,GE-B,GE-H
+EALC 110gp,East Asian Humanities:  The Great Tradition,GE-B,GE-H
+EALC 130gp,Introduction to East Asian Ethical Thought,GE-B,GE-H
+EALC 340gp,Japanese Civilization,GE-B,GE-H
+EALC 342gp,Japanese Literature and Culture,GE-B,GE-H
+EALC 344gp,Korean Culture from Ancient to Modern Times,GE-B,GE-H
+EALC 350gp,Chinese Civilization,GE-B,GE-H
+FREN 272gp,"Medicine, Health and the Body in Literature and Culture",GE-B,GE-H
+HIST 104gp,Modern Europe,GE-B,GE-H
+HIST 107gp,Introduction to the History of Japan,GE-B,GE-H
+HIST 220gp,Murder on Trial in America,GE-B,GE-H
+HIST 240gp,History of California,GE-B,GE-H
+HIST 245mgp,"How Sex Changed: US History, 1870-the Present",GE-B,GE-H
+HIST 278gp,"Ottomans and Empire: Anatolia, the Middle East, and the Mediterranean World",GE-B,GE-H
+JS 100gp,Jewish History,GE-B,GE-H
+JS 170gp,Exploring the Hebrew Bible,GE-B,GE-H
+JS 258gp,"Food, Faith and Conflict",GE-B,GE-H
+JS 314gp,"Holy War And History: Jews, Christians, Muslims",GE-B,GE-H
+JS 370gp,Digs and Dispute: Religion and Archaeology in Israel,GE-B,GE-H
+PHIL 102gp,Historical Introduction to Philosophy,GE-B,GE-H
+PHIL 141gp,The Professions and the Public Interest in American Life,GE-B,GE-H
+PHIL 254gp,"Science, Knowledge and Objectivity",GE-B,GE-H
+PHIL 255gp,"Existentialism in Philosophy, Literature and Film",GE-B,GE-H
+PHIL 284gp,Ideas on Trial,GE-B,GE-H
+PHIL 288gp,"Love and Its Representations in Western Literature, Film, and Philosophy",GE-B,GE-H
+REL 125gp,Introduction to Christianity: Antiquity to 1500,GE-B,GE-H
+REL 326gp,The Historical Jesus,GE-B,GE-H
+SLL 330gp,Russian Thought and Civilization,GE-B,GE-H
+SPAN 290gp,Introduction to Latin American and Iberian Studies,GE-B,GE-H
+SWMS 212gp,Introduction to Gender and Sexuality: American Perspectives,GE-B,GE-H
+SWMS 219gp,Introduction to Feminist Theory,GE-B,GE-H
+SWMS 227gp,Death and Gender in Urban Contexts,GE-B,GE-H
+AMST 101mgw,Race and Class in Los Angeles,GE-C,GE-G
+AMST 135mgw,Peoples and Cultures of the Americas,GE-C,GE-G
+AMST 140gw,Borderlands in a Global Context,GE-C,GE-G
+AMST 215gw,Race and Mixed Race,GE-C,GE-G
+AMST 220mgw,The Making of Asian America,GE-C,GE-G
+AMST 250mgw,The African Diaspora,GE-C,GE-G
+AMST 252mgw,Black Social Movements in the U.S.,GE-C,GE-G
+ANTH 273gw,"Shamans, Spirits and Ancestors: Non-Western Religious Traditions",GE-C,GE-G
+ANTH 315gw,North American Indians,GE-C,GE-G
+ANTH 324gw,Contemporary China: Cultural Politics and Social Realities,GE-C,GE-G
+CORE 104gw,Change and the Future: Thematic Option Honors Program,GE-C,GE-G
+HIST 265gw,"Racism, Sexism, and the Law",GE-C,GE-G
+HP 365mgw,"Culture, Lifestyle, and Health",GE-C,GE-G
+IR 101xgw,International Relations,GE-C,GE-G
+IR 210gw,International Relations: Introductory Analysis,GE-C,GE-G
+IR 308gw,Economic Globalization,GE-C,GE-G
+JS 211gw,The Holocaust,GE-C,GE-G
+JS 328gw,Blacks and Jews: Conflicts and Alliances,GE-C,GE-G
+LING 107gw,Communication Disorders in Our Communities,GE-C,GE-G
+LING 115gw,Language and Society,GE-C,GE-G
+POSC 248gw,Human Rights,GE-C,GE-G
+POSC 265gw,Environmental Challenges,GE-C,GE-G
+SOCI 100mgw,Los Angeles and the American Dream,GE-C,GE-G
+SOCI 225gw,Sociology of Health and the Body,GE-C,GE-G
+SOCI 250mgw,Grassroots Participation in Global Perspective,GE-C,GE-G
+SSCI 165Lgw,Sustainability Science in the City,GE-C,GE-G
+SSCI 175gw,"Food, Health and Place",GE-C,GE-G
+SWMS 210mgw,Social Analysis of Gender,GE-C,GE-G
+ANTH 316mgp,North American Indians in American Public Life,GE-C,GE-H
+CLAS 349gp,Ancient Empires,GE-C,GE-H
+EASC 150gp,East Asian Societies,GE-C,GE-H
+EASC 160mgp,China and the World,GE-C,GE-H
+HIST 101gp,State and Society in the Ancient World,GE-C,GE-H
+HIST 211gp,Race in America,GE-C,GE-H
+HIST 237gp,Fascism,GE-C,GE-H
+HIST 241gp,Introduction to the American West,GE-C,GE-H
+HIST 251gp,"History of Science, Technology and Medicine",GE-C,GE-H
+HIST 266gp,"Business and East Asian Culture, 1800-Present",GE-C,GE-H
+JS 180gp,Judaism,GE-C,GE-H
+MDES 213gp,Iran: From Antiquity to Modernity,GE-C,GE-H
