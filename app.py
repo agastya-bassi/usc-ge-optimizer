@@ -60,11 +60,10 @@ def fetch_one(course_code):
         return {"course_code": course_code, "total_seats": 0, "registered_seats": 0, "open_seats": 0}
 
 @st.cache_data(ttl=30)
-def load_data(course_codes):
-    with concurrent.futures.ThreadPoolExecutor(max_workers=40) as executor:  # up from 20
-        results = list(executor.map(fetch_one, course_codes))
-    enrollment_df = pd.DataFrame(results)
+@st.cache_data(ttl=420)
+def load_data():
     ge_df = pd.read_csv("ge_double_count.csv")
+    enrollment_df = pd.read_csv("https://raw.githubusercontent.com/agastya-bassi/usc-ge-optimizer/main/enrollment_data.csv")
     merged = ge_df.merge(enrollment_df, on="course_code", how="left")
     merged["status"] = merged["open_seats"].apply(lambda x: "✅ Open" if x > 0 else "🔴 Full")
     return merged
