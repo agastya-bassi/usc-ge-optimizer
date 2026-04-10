@@ -44,31 +44,36 @@ for s in sections:
     print(s)
 
 
+import concurrent.futures
+
 def get_all_enrollments(df: pd.DataFrame) -> pd.DataFrame:
-    """Fetch enrollment for all double-count courses."""
-    all_sections = []
+    def fetch_one(course_code):
+        prefix = course_code.split()[0]
+        number = course_code.split()[1][:3]
+        url = f"https://classes.usc.edu/api/Search/Basic?termCode=20263&searchTerm={prefix}+{number}"
+        try:
+            response = requests.get(url, timeout=8)
+            data = response.json()
+            total = 0
+            registered = 0
+            open_seats = 0
+            for course in data.get("courses", []):
+                for section in course.get("sections", []):
+                    if section.get("rnrMode") == "Lecture":
+                        t = section.get("totalSeats") or 0
+                        r = section.get("registeredSeats") or 0
+                        total += t
+                        registered += r
+                        open_seats += max(0, t - r)
+            return {"course_code": course_code, "total_seats": total, "registered_seats": registered, "open_seats": open_seats}
+        except:
+            return {"course_code": course_code, "total_seats": 0, "registered_seats": 0, "open_seats": 0}
 
-    for i, course_code in enumerate(df["course_code"].unique()):
-        print(f"Fetching {i + 1}/{len(df)}: {course_code}")
-        sections = get_enrollment(course_code)
-        all_sections.extend(sections)
-        time.sleep(0.3)  # be polite to USC's servers
+    course_codes = df["course_code"].unique().tolist()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+        results = list(executor.map(fetch_one, course_codes))
 
-    if not all_sections:
-        return pd.DataFrame()
-
-    sections_df = pd.DataFrame(all_sections)
-
-    # Summarize per course — only lecture sections
-    summary = sections_df[sections_df["mode"] == "Lecture"].groupby("course_code").agg(
-        total_seats=("total_seats", "sum"),
-        registered_seats=("registered_seats", "sum"),
-        open_seats=("open_seats", "sum"),
-        sections_available=("section_id", "count"),
-        any_open=("is_full", lambda x: not all(x))
-    ).reset_index()
-
-    return summary
+    return pd.DataFrame(results)
 
 if __name__ == "__main__":
     ge_df = pd.read_csv("ge_double_count.csv")
