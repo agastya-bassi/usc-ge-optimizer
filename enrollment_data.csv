@@ -1,7 +1,7 @@
 course_code,total_seats,registered_seats,open_seats
 AMST 325gw,0,0,0
 DANC 312gw,62,32,30
-DANC 333gw,102,95,7
+DANC 333gw,102,94,8
 MUSC 102gw,150,70,80
 MUSC 200mgw,150,150,0
 MUSC 250mgw,60,33,27
@@ -13,7 +13,7 @@ AHIS 125gp,0,0,0
 AHIS 128gp,0,0,0
 CLAS 170gp,0,0,0
 CLAS 280gp,30,30,0
-CRIT 150gp,112,105,7
+CRIT 150gp,112,104,8
 MUSC 115gp,100,100,0
 AMST 150gw,0,0,0
 AMST 331gw,0,0,0
