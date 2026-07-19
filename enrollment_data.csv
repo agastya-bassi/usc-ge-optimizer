@@ -2,7 +2,7 @@ course_code,total_seats,registered_seats,open_seats
 AMST 325gw,0,0,0
 DANC 312gw,62,29,33
 DANC 333gw,102,94,8
-MUSC 102gw,0,0,0
+MUSC 102gw,150,73,77
 MUSC 200mgw,150,150,0
 MUSC 250mgw,60,33,27
 THTE 226gw,175,173,2
@@ -28,7 +28,7 @@ FREN 375mgw,0,0,0
 HIST 210gw,0,0,0
 JS 150gw,0,0,0
 JS 320gw,0,0,0
-PHIL 166gw,120,119,1
+PHIL 166gw,0,0,0
 PHIL 172mgw,0,0,0
 PHIL 174gw,0,0,0
 PHIL 176gw,120,93,27
