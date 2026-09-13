@@ -1,7 +1,7 @@
 course_code,total_seats,registered_seats,open_seats
 AMST 325gw,0,0,0
 DANC 312gw,58,49,9
-DANC 333gw,102,102,0
+DANC 333gw,0,0,0
 MUSC 102gw,150,129,21
 MUSC 200mgw,150,149,1
 MUSC 250mgw,60,47,13
@@ -36,7 +36,7 @@ PHIL 178gw,0,0,0
 PHIL 260gw,100,98,2
 SLL 310gw,49,49,0
 SWMS 215gw,50,50,0
-AMST 301gp,0,0,0
+AMST 301gp,100,99,1
 CLAS 150gp,0,0,0
 CLAS 151gp,150,150,0
 CLAS 160gp,0,0,0
